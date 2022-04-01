@@ -8,8 +8,3 @@ def buscar(lst):
 
 
 buscar(lst)
-
-    
-
-
-
