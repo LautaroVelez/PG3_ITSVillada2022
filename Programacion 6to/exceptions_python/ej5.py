@@ -1,3 +1,6 @@
+from typing import Type
+
+
 string= str(input("Ingrese una cadena: "))
 
 try:
@@ -15,5 +18,5 @@ try:
         if f.mode=='r':
             contents= f.read() 
     
-except:
-    pass
+except TypeError:
+    print("No ponga numeros porfas")
